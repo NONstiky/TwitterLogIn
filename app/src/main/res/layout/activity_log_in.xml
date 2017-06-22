@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context="com.codepath.twitterlogin.LogInActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical"
+        >
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.5"
+            android:background="@color/colorGray"></FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:text="Login. Here we go!"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="E-mail address"
+            android:layout_height="40dp"
+            android:textColor="@color/colorWhite"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:hint="Password"
+            android:layout_height="40dp"
+            android:textColor="@color/colorWhite"
+            />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:text="Cancel"
+                android:textAllCaps="false"/>
+            
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:text="Login"
+                android:background="@color/colorBlue"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+        <TextView
+            android:layout_height="20dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorBlue"
+            android:gravity="center"
+            android:text="I forgot my password"
+            >
+            </TextView>
+
+
+    </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
