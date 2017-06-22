@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
+    android:background="@drawable/image"
     tools:context="com.codepath.twitterlogin.LogInActivity">
 
 
@@ -36,30 +36,36 @@
             android:hint="E-mail address"
             android:layout_height="40dp"
             android:textColor="@color/colorWhite"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             />
         <EditText
             android:layout_width="match_parent"
             android:hint="Password"
             android:layout_height="40dp"
             android:textColor="@color/colorWhite"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
             />
         <LinearLayout
             android:orientation="horizontal"
+            android:gravity="center_horizontal"
             android:layout_width="match_parent"
-            android:layout_height="50dp">
+            android:layout_height="wrap_content">
             <Button
                 android:layout_width="100dp"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_gravity="left"
                 android:text="Cancel"
                 android:textAllCaps="false"
+                android:background="@color/colorWhite"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
 
 
             <Button
                 android:layout_width="100dp"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="175dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="145dp"
                 android:text="Login"
                 android:background="@color/colorBlue"
                 android:textAllCaps="false"
