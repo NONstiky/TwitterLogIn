@@ -52,15 +52,18 @@
                 android:layout_height="match_parent"
                 android:layout_gravity="left"
                 android:text="Cancel"
-                android:textAllCaps="false"/>
-            
+                android:textAllCaps="false"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
             <Button
                 android:layout_width="100dp"
                 android:layout_height="match_parent"
-                android:layout_gravity="right"
+                android:layout_marginLeft="175dp"
                 android:text="Login"
                 android:background="@color/colorBlue"
-                android:textAllCaps="false"/>
+                android:textAllCaps="false"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
         </LinearLayout>
         <TextView
             android:layout_height="20dp"
